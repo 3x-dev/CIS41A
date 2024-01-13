@@ -1,0 +1,30 @@
+'''
+Aryan Singhal
+CIS 41A   Winter 2024
+Unit B, Problem B
+'''
+
+print("First Script")
+
+user_input = input("Enter a string: ")
+is_upper_result = user_input.isupper()
+print(is_upper_result)
+is_digit_result = user_input.isdigit()
+print(is_digit_result)
+is_alpha_result = user_input.isalpha()
+print(is_alpha_result)
+haiku = "Type, type, type away.\nCompile. Run. Hip hip hooray!\nNo error today!"
+print(haiku)
+
+quote = "And now for something completely different"
+print(quote[:6])
+print(quote[-4:])
+print(quote[14:16])
+print(quote[::2])
+print(quote[::-1])
+
+pattern1 = ".~*'"
+pattern2 = pattern1 + pattern1[::-1]
+print(pattern2 * 5)
+
+print("\nSecond Script")
