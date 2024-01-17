@@ -73,5 +73,28 @@ print("d) binary of a | b =", bin(result_or))
 
 '''
 Execution results:
+First Script
+d) Items in list1:
+1
+5
+3
+g) list3 is: [1, 5, 3, 1, 2, 3, 4]
+h) list3 contains a 3: True
+i) list3 contains 2 3s
+j) The index of the first 3 contained in list3 is 2
+k) first3 = 3
+m) list3 is now: [1, 5, 1, 2, 3, 4]
+n) list4 is: [1, 1, 2, 3, 4, 5]
+o) Slice of list3 is: [5, 1, 2]
+p) Length of list3 is 6
+q) The max value in list3 is 5
+r) Sorted list3 is: [1, 1, 2, 3, 4, 5]
+t) list5 is: [[1, 5, 3], [1, 2, 3, 4]]
+u) Value 4 from list5: 4
 
+Second Script
+a) binary of a = 0b1001
+b) binary of b = 0b1110
+c) binary of a & b = 0b1000
+d) binary of a | b = 0b1111
 '''
