@@ -68,6 +68,7 @@ print("Is Sasha in class1:", is_sasha_in_class1)
 
 '''
 Execution results:
+
 Apple dessert: sauce
 Banana dessert exists: True
 Pear dessert exists: False

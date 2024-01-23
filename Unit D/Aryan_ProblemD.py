@@ -45,7 +45,27 @@ casablanca = Movie("Casablanca", 1942, "romantic drama")
 print("My favorite movie is: " + str(casablanca.title))
 
 
+Moviestars = namedtuple("Moviestars", ["title", "year", "genre", "stars"])
+
+favoritemovie = Moviestars("Casablanca", 1942, "romantic drama", ["Humphrey Bogart", "Ingrid Bergman"])
+
+favoritemovie.stars.append("Claude Rains")
+
+print("My favorite star is:", favoritemovie.stars[1])
+print(favoritemovie)
+
+
 '''
 Execution results:
 
+First 10 Triangle numbers: 
+[1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+Students in all three classes: ['Migel']
+All students: ['Anita', 'Audry', 'Hiroto', 'Jia', 'Li', 'Migel', 'Sasha', 'Tanya', 'Zhang']
+Students in class1 but not class2 or class3: ['Li']
+Students in class2 but not class1: ['Hiroto', 'Sasha']
+The genre of my favorite movie is: romantic drama
+My favorite movie is: Casablanca
+My favorite star is: Ingrid Bergman
+Moviestars(title='Casablanca', year=1942, genre='romantic drama', stars=['Humphrey Bogart', 'Ingrid Bergman', 'Claude Rains'])
 '''
