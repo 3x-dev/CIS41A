@@ -6,7 +6,6 @@ Unit I, Problem I
 
 
 
-
 '''
 Execution results:
 
