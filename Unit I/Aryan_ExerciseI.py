@@ -21,7 +21,6 @@ class Cylinder(Circle):
         return self.getArea() * self.height
 
 
-
 # Test the Circle class
 circle = Circle(4)
 print(f"Circle area is: {circle.getArea():.2f}")
@@ -32,7 +31,6 @@ print(f"Cylinder volume is: {cylinder.getVolume():.2f}")
 
 '''
 Execution results:
-
 Circle area is: 50.27
 Cylinder volume is: 62.83
 '''
