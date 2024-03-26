@@ -1,0 +1,21 @@
+'''
+Aryan Singhal
+CIS 41A   Winter 2024
+Unit J, Exercise J
+'''
+
+Regular Expressions:
+
+1.
+    a. Zero or more A: A*
+    b. One or more A: A+
+    c. Zero or one A: A?
+    d. Two or three A: A{2,3}
+
+2.
+    a. AB followed by exactly three B's: AB{3}
+    b. AB repeated three times: (AB){3}
+
+3. Matches any character not between 'A' and 'G' (no specific strings provided as all given strings don't match): [^A-G]
+
+4. Exactly three characters long: ^.{3}$
