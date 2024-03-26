@@ -5,7 +5,6 @@ Unit J, Exercise J
 '''
 
 Regular Expressions:
-
 1.
     a. Zero or more A: A*
     b. One or more A: A+
